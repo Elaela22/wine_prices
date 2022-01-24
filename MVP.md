@@ -21,10 +21,10 @@ I will look at both year and age of the wine next. With wine, age can matter, bu
 ![](https://raw.githubusercontent.com/Elaela22/wine_prices/main/jointplot.png)
 
 ### Recommendations
-1. The biggest positive influence on price is the Napa Valley region. This could mean Napa Valley wines are overvalued, due to their enormous reputation and the region's attraction to wine tourists. To accomplish the client's specific mission to promote undervalued wines, I recommend that they order fewer Napa Valley wines. Yountville is also in Napa (where the famous Michelin-starred restaurant French Laundry is located) so I'll combine these features when I do more feature engineering.
+1. The biggest positive influence on price is the Napa Valley region. This could mean Napa Valley wines are overvalued, due to their enormous reputation and the region's attraction to wine tourists. To accomplish the client's specific mission to promote undervalued wines, I recommend that they order fewer Napa Valley wines. This includes Yountville, which is also technically in Napa (where the famous Michelin-starred restaurant French Laundry is located).
 	* The regions of Pessac-Leognan, Bordeaux and Margaux in France also are correlated with high prices, as is Brunello di Montalcino, in Italy. These regions are all known for expensive wines. Lean away from these regions, except for Bordeaux, which offers so many wines that it should still be quite possible to select undervalued wines from wineries there.
 	* Cabernet Sauvignon and Bordeaux Blend are the most expensive grapes; for full-bodied wines that are undervalued, it would be better to lean towards:
-		* 	Merlot
+		*  Merlot
 		*  Malbec
 		*  Zinfandel
 		*  Petite Syrah
