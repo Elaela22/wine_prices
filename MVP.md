@@ -10,13 +10,13 @@ A **region** is a specific wine-growing area somewhere in the world, like Napa V
 A **grape** is the specific grape a wine variety is made from, such as Pinot Noir or Cabernet Sauvignon.
 
 ### Data
-I'm looking at data from TotalWine.com, which gives the price, name, region, and grape on each bottle of red wine (and often year). Currently I've been able to scrape region and grape from 552 bottles, but there are over 3,000 listings, and I'll pull at least 1000.
+I'm looking at data from TotalWine.com, which gives the price, name, region, ratings, and grape on each bottle of red wine (and often year). Currently I've been able to scrape region and grape from 552 bottles, but there are over 3,000 listings, and I'll pull at least 1000.
 
 ### Results 
 #### Region, grape, and price
 I used one hot encoding to turn my categorical columns (each region and grape variety) into numerical columns, and removed features with too few rows for analyze. This made for 91 total features. I fit a Linear Regression model and came up with an R2 value of **0.632**. This means wine pricing is indeed influenced by region and grape, though there are obviously other factors.
 
-I will look at both year and age of the wine next. With wine, age can matter, but specific years can also be "good" or "bad" due to weather and other factors, so I do need to analyze both. I'll look at tasting keywords as well - not expecting this to have much of an impact, but it would be interesting to find out if certain keywords are used more for expensive or cheaper wines. A jointplot showing the linear regression model is below.
+I will look at both year and age of the wine next. With wine, age can matter, but specific years can also be "good" or "bad" due to weather and other factors, so I do need to analyze both. I'll look at customer ratings also, and maybe tasting keywords as well - not expecting this to have much of an impact, but it would be interesting to find out if certain keywords are used more for expensive or cheaper wines. A jointplot showing the linear regression model is below.
 
 ![](https://raw.githubusercontent.com/Elaela22/wine_prices/main/joint_plot.png)
 
