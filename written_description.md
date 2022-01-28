@@ -1,7 +1,7 @@
 # Written Description
 
 ## Abstract
-I predicted wine prices using scraped data from TotalWine.com, using vintage, age, region, grape, customer reviews, and expert ratings to fit and score a linear regression model. My final model was able to predict wine prices with an r^2 value of .53 on the withheld test set. The biggest predictor was by far the winegrowing region, followed by vintage and then expert ratings. Wines from some of the Bordeaux appellations in France were the most expensive regions, along with Napa Valley, CA. Age and customer reviews were only slightly predictive.
+I predicted wine prices using scraped data from TotalWine.com, using vintage, age, region, grape, customer reviews, and expert ratings to fit and score a linear regression model. My final model was able to predict wine prices with an r^2 value of .66 on the withheld test set. The biggest predictor was by far the winegrowing region, followed by vintage and then expert ratings. Wines from some of the Bordeaux appellations in France were the most expensive regions, along with Napa Valley, CA. Age and customer reviews were only slightly predictive.
 
 ## Components
 ### Design
