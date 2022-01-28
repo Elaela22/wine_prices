@@ -6,7 +6,7 @@
 
 ### [MVP](https://github.com/Elaela22/wine_prices/blob/main/MVP.md)
 
-### [Final Code](https://github.com/Elaela22/wine_prices/blob/main/Wine%20Project.ipynb)
+### [Final Code](https://github.com/Elaela22/wine_prices/blob/main/Wine%20Project%20(2).ipynb)
 
 ### [Presentation Slides](https://github.com/Elaela22/wine_prices/blob/main/Red%20Wine%20Prices%20(1).pdf)
 
